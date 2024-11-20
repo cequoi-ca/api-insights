@@ -1,0 +1,8 @@
+services:
+  api-sample:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pellepedro/api-sample
+    ports:
+      - 8000:8000
